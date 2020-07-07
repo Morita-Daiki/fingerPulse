@@ -27,7 +27,7 @@ def plots(bgr, frameRate):
 
 if __name__ == "__main__":
     print('start')
-    fname = 'finger.mp4'
+    fname = 'fingerPulse/finger99.mp4'
     cap = cv2.VideoCapture(fname)
     bgr = []
     while cap.isOpened():
